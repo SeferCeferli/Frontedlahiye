@@ -1,0 +1,19 @@
+#pillar{
+    background: url("../image/hero1.jpg");
+    height: 100vh;
+    
+    
+    .logo{
+        margin-top: 280px;
+        margin-left: 164px;
+        height: 132px;
+    }
+    .lead{
+        margin-top: 325px;
+        font-size: 28px;
+        color: $primary-color;
+        font-weight: 300;
+    }
+    
+
+}

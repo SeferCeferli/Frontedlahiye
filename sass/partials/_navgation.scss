@@ -1,0 +1,54 @@
+
+#navgation{
+position: fixed;
+background-color: transparent;
+
+    .navbar{
+        padding: 16px;
+
+
+        .nav-module{
+            img{
+                height: 33px;
+            }
+        }
+
+        .nav-moon{
+            text-align: right;
+            margin-left: 1000px;
+
+            
+           
+
+            
+               
+                .logo{
+                    max-height:40%;
+                    margin: 0;
+                }
+            
+             
+
+        }
+
+        .navbar-nav{
+           .nav-link{
+               color: $primary-color;
+           }
+        }
+
+
+        .nav-function{
+            color:$primary-color;
+            margin: 10px;
+
+            span{
+                display: none;
+            }
+        }
+
+        
+
+    }
+}
+

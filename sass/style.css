@@ -1,0 +1,54 @@
+#navgation {
+  position: fixed;
+  background-color: transparent;
+}
+
+#navgation .navbar {
+  padding: 16px;
+}
+
+#navgation .navbar .nav-module img {
+  height: 33px;
+}
+
+#navgation .navbar .nav-moon {
+  text-align: right;
+  margin-left: 1000px;
+}
+
+#navgation .navbar .nav-moon .logo {
+  max-height: 40%;
+  margin: 0;
+}
+
+#navgation .navbar .navbar-nav .nav-link {
+  color: #fff;
+}
+
+#navgation .navbar .nav-function {
+  color: #fff;
+  margin: 10px;
+}
+
+#navgation .navbar .nav-function span {
+  display: none;
+}
+
+#pillar {
+  background: url("../image/hero1.jpg");
+  height: 100vh;
+}
+
+#pillar .logo {
+  margin-top: 280px;
+  margin-left: 164px;
+  height: 132px;
+}
+
+#pillar .lead {
+  margin-top: 325px;
+  font-size: 28px;
+  color: #fff;
+  font-weight: 300;
+}
+/*# sourceMappingURL=style.css.map */
