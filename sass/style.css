@@ -27,7 +27,7 @@
 
 #navgation .navbar .nav-function {
   color: #fff;
-  margin: 10px;
+  margin: 6px;
 }
 
 #navgation .navbar .nav-function span {
@@ -50,5 +50,63 @@
   font-size: 28px;
   color: #fff;
   font-weight: 300;
+}
+
+#pillar .btn {
+  position: absolute;
+  top: 50px;
+  right: 450px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  border-radius: 100px;
+  border-color: #425CBB;
+  background-color: #425CBB;
+}
+
+#pillar .btn span {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+#pillar .list-items {
+  position: absolute;
+  top: 290px;
+  left: 415px;
+}
+
+#pillar .list-items li {
+  margin-right: 45px;
+}
+
+#pillar .list-items li a i {
+  font-size: 30px;
+  color: #b1adad;
+}
+
+#pillar .list-items li a i:hover {
+  content: "";
+  color: #fff;
+}
+
+#delivered {
+  padding: 100px 0;
+}
+
+#delivered .delivered-327 h3 {
+  font-weight: 600;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 2em;
+  line-height: 1.7em;
+  color: #343434;
+}
+
+#delivered .delivered-327 p {
+  color: #767676;
+  font-family: "Lora", "Helvetica", "Arial", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */

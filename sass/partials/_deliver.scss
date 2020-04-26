@@ -1,0 +1,19 @@
+#delivered{
+    padding: 100px 0;
+    .delivered-327{
+       h3{
+        font-weight: $text-font-weight;
+        font-family: $font-f;
+        font-size: $heading3-fontSize;
+        line-height: $text-line-height;
+        color: $heading-color;
+       }
+       p{
+        color: $text-color;
+        font-family:$text-font-family;
+        font-size: $text-font-size;
+        line-height: $text-line-height;
+        font-weight: $helper-font-weight;
+       }
+    }
+}
