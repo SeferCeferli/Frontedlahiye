@@ -169,4 +169,24 @@
   -webkit-transition: all .6s;
   transition: all .6s;
 }
+
+#creative {
+  padding: 100px 0;
+}
+
+#creative .delivered-327 h3 {
+  font-weight: 600;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 2em;
+  line-height: 1.7em;
+  color: #343434;
+}
+
+#creative .delivered-327 p {
+  color: #767676;
+  font-family: "Lora", "Helvetica", "Arial", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  font-weight: 400;
+}
 /*# sourceMappingURL=style.css.map */
