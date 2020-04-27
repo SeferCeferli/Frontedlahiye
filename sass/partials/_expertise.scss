@@ -1,0 +1,64 @@
+#expertise{
+    padding: 100px 0;
+    .delivered-327{
+       h3{
+        font-weight: $text-font-weight;
+        font-family: $font-f;
+        font-size: $heading3-fontSize;
+        line-height: $text-line-height;
+        color: $heading-color;
+       }
+       p{
+        color: $text-color;
+        font-family:$text-font-family;
+        font-size: $text-font-size;
+        line-height: $text-line-height;
+        font-weight: $helper-font-weight;
+       }
+    }
+
+    .draw{
+        padding: 30px;
+    
+        .interface{
+            
+        }
+
+        .interface__left{
+            float: left;
+            margin-right: 27px;
+            i{
+                
+                font-size: 40px;
+                color:#425cbb
+
+                
+            }
+
+        }
+
+        .interfaction__right{
+            
+            float: left;
+          
+            
+            h6{
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 400;
+                margin-bottom: 2.36363636363636em;
+                color: $text-color;
+            }
+            p{
+                color: $text-color;
+            }
+            
+        }
+       
+    }
+    .drop{
+        margin-bottom: 91px;
+    }
+
+  
+}

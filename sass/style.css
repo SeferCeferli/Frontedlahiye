@@ -314,4 +314,58 @@
   background-color: rgba(32, 27, 27, 0.5);
   /*dim the background*/
 }
+
+#expertise {
+  padding: 100px 0;
+}
+
+#expertise .delivered-327 h3 {
+  font-weight: 600;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 2em;
+  line-height: 1.7em;
+  color: #343434;
+}
+
+#expertise .delivered-327 p {
+  color: #767676;
+  font-family: "Lora", "Helvetica", "Arial", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+
+#expertise .draw {
+  padding: 30px;
+}
+
+#expertise .draw .interface__left {
+  float: left;
+  margin-right: 27px;
+}
+
+#expertise .draw .interface__left i {
+  font-size: 40px;
+  color: #425cbb;
+}
+
+#expertise .draw .interfaction__right {
+  float: left;
+}
+
+#expertise .draw .interfaction__right h6 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 2.36363636363636em;
+  color: #767676;
+}
+
+#expertise .draw .interfaction__right p {
+  color: #767676;
+}
+
+#expertise .drop {
+  margin-bottom: 91px;
+}
 /*# sourceMappingURL=style.css.map */
