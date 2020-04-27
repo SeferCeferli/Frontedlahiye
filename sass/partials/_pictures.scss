@@ -33,14 +33,17 @@
             .list-items{
                 margin-top: 341px;
                 margin-right: 129px;
+                a{
+                    text-decoration: none;
+                    color: white !important;
+                  i{
+                      color: white!important;
+                  }
+                 }
                  ul{
+                   
                    .list-inline-item{
-                       a{
-                           color: white;
-                        i{
-                            color: white!important;
-                        }
-                       }
+                      
                    }
                  }
             }

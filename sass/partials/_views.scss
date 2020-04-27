@@ -1,0 +1,85 @@
+#news{
+    padding: 100px 0;
+    .delivered-327{
+       h3{
+        font-weight: $text-font-weight;
+        font-family: $font-f;
+        font-size: $heading3-fontSize;
+        line-height: $text-line-height;
+        color: $heading-color;
+       }
+       p{
+        color: $text-color;
+        font-family:$text-font-family;
+        font-size: $text-font-size;
+        line-height: $text-line-height;
+        font-weight: $helper-font-weight;
+       }
+    }
+
+    a{
+        text-decoration: none;
+        color: #232323;
+    }
+    h6{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 10px;
+        
+    }
+    .card-text{
+        height: 4.875em;
+        margin-bottom: 1.625em;
+        // text-overflow: ellipsis;
+        // overflow: hidden;
+
+        h5{
+            font-weight: 400;
+        }
+    }
+    .card-smith{
+        span{
+            font-size: 0.625em;
+            font-style: italic;
+            display: inline-block;
+            color: #767676;
+            h6{
+
+            }
+        }
+    }
+
+    .drop{
+        margin-bottom: 96px;
+    }
+
+
+    .btn{
+        margin-top: 60px;
+        font-family: $font-f;
+        border-color: $heading-color;
+        border-radius: 100px;
+        padding-top: 9px;
+        padding-bottom: 11px;
+        padding-right: 50px;
+        padding-left: 50px;
+        border: 1px solid $text-color;
+        border-width: 2px;
+        font-size: inherit;
+        line-height: 25px;
+        text-transform: uppercase;
+        &:hover{
+            border-color: black;
+        }
+        .btn-text{
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 10px;
+        }
+
+    }
+
+}

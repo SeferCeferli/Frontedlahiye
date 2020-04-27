@@ -1,0 +1,44 @@
+#gibson{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 0;
+    &::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        bottom: -80px;
+        background: #f4f4f4;
+    }
+
+
+   .zabrat{
+      margin-top: 182px;
+
+
+      p{
+        font-size: 21px;
+        line-height: 40px;
+        font-style: italic;
+        margin-bottom: 50px;
+        color: $text-color;
+      };
+      h5{
+        font-family: $font-f;
+        color: $heading-color;
+        font-weight: $text-font-weight;
+      }
+      h6{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px
+          }
+
+
+    }
+
+
+}
