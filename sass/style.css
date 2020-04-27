@@ -190,6 +190,10 @@
   font-weight: 400;
 }
 
+#pictures {
+  padding: 100px 0;
+}
+
 #pictures .category-item {
   position: relative;
   -webkit-transition: all 0.6s;
@@ -255,5 +259,59 @@
   opacity: 1;
   -webkit-transition: all .6s;
   transition: all .6s;
+}
+
+#customer {
+  background-image: url("../image/hero2.jpg");
+  top: 0;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px 0px;
+  opacity: 0.7;
+}
+
+#customer .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#customer .customer-1 i {
+  font-size: 4em;
+}
+
+#customer .customer-1 h3 {
+  font-weight: 600;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 2em;
+  line-height: 1.7em;
+  color: #fff;
+  padding: 10px;
+}
+
+#customer .customer-1 h5 {
+  font-family: "Lora", "Helvetica", "Arial", sans-serif;
+}
+
+#customer .parallax {
+  overflow: hidden;
+  will-change: contents;
+}
+
+#customer html, #customer body {
+  min-height: 100%;
+}
+
+#customer body {
+  position: relative;
+}
+
+#customer .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(32, 27, 27, 0.5);
+  /*dim the background*/
 }
 /*# sourceMappingURL=style.css.map */
