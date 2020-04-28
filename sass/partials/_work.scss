@@ -1,0 +1,36 @@
+#working{
+background-color: #425cbb;
+text-align: center;
+height: 160px;
+
+.work{
+    margin-top: 67px;
+
+    h4{
+        margin: 0;
+        display: inline-block;
+        position: relative;
+        top: 3px;
+        white-space: nowrap;
+        color: $primary-color;
+    }
+    a{
+        text-decoration: none;
+        margin-left: 1.625em;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        border-radius: 100px;
+        padding: 14px;
+        padding-right: 30px;
+        padding-left: 30px;
+        &:hover{
+           border-color: $primary-color;
+        }
+    }
+        span{
+            color: #fff;
+            letter-spacing: 1px;
+        }
+    }
+   
+
+}
