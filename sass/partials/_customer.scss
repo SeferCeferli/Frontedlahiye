@@ -1,6 +1,8 @@
 #customer{
    background-image: url("../image/hero2.jpg");
-   top: 0;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
    height: 400px;
    background-color: rgba(0,0,0,0.5);
    padding: 100px 0px;

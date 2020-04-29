@@ -1,0 +1,72 @@
+#About{
+    padding: 100px 0;
+    background-image: url("../image/hero5.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+   
+    .margin-327{
+        h3{
+         font-weight: $text-font-weight;
+         font-family: $font-f;
+         font-size: $heading3-fontSize;
+         line-height: $text-line-height;
+         color: $primary-color;
+        }
+        p{
+         color: $primary-color;
+         font-family:$text-font-family;
+         font-size: $text-font-size;
+         line-height: $text-line-height;
+         font-weight: $helper-font-weight;
+        }
+     }
+     
+     
+}
+
+
+
+#card{
+    padding: 100px 0;
+    position: relative;
+    bottom: 200px;
+    .card{
+        .card__icon{
+            background: #F4F4F4;
+            padding: 78px 0;
+            text-align: center;
+            i{
+                font-size: 64px;
+                text-align: center;
+                color: #6c757d;
+            }
+        }
+        .card__body{
+            position: relative;
+            overflow: hidden;
+            padding: 39px;
+            background: $primary-color;
+            .card__title{
+                margin-bottom: 13px;
+                line-height: 26px;
+                font-size: 16px;
+                h5{
+                    font-size: 16px;
+                    line-height: 26px;
+                    font-family: $font-f;
+                    font-weight: 600;
+                    color: #232323;
+                }
+            }
+            p{
+                margin-top: 26px;
+                color: $text-color;
+                margin-bottom: 26px;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+}
