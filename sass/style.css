@@ -39,29 +39,54 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
-#pillar .logo {
+#pillar::before {
+  content: "";
+  position: absolute;
+  background: #232323;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+#pillar .brand {
+  z-index: 2;
+  position: absolute;
+}
+
+#pillar .brand .logo {
   margin-top: 280px;
   margin-left: 164px;
   height: 132px;
 }
 
-#pillar .lead {
+#pillar .brand .lead {
   margin-top: 325px;
   font-size: 28px;
   color: #fff;
   font-weight: 300;
+  margin-left: 42px;
 }
 
 #pillar .btn {
+  width: 280px;
+  height: 53px;
   position: absolute;
+  z-index: 4;
+  margin-top: 420px;
+  margin-right: 15px;
   top: 50px;
   right: 450px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   border-radius: 100px;
   border-color: #425CBB;
   background-color: #425CBB;
+  padding: 14px;
 }
 
 #pillar .btn span {
@@ -75,7 +100,8 @@
 #pillar .list-items {
   position: absolute;
   top: 290px;
-  left: 415px;
+  left: 410px;
+  margin-top: 350px;
 }
 
 #pillar .list-items li {
@@ -83,6 +109,8 @@
 }
 
 #pillar .list-items li a i {
+  position: absolute;
+  z-index: 3;
   font-size: 30px;
   color: #b1adad;
 }
@@ -272,11 +300,25 @@
   height: 400px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 100px 0px;
+  position: relative;
+}
+
+#customer::before {
+  content: "";
+  position: absolute;
+  background: #232323;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
   opacity: 0.7;
 }
 
-#customer .overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+#customer .customer-1 {
+  z-index: 2;
+  position: absolute;
+  margin-left: 88px;
 }
 
 #customer .customer-1 i {
@@ -294,30 +336,6 @@
 
 #customer .customer-1 h5 {
   font-family: "Lora", "Helvetica", "Arial", sans-serif;
-}
-
-#customer .parallax {
-  overflow: hidden;
-  will-change: contents;
-}
-
-#customer html, #customer body {
-  min-height: 100%;
-}
-
-#customer body {
-  position: relative;
-}
-
-#customer .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  background-color: rgba(32, 27, 27, 0.5);
-  /*dim the background*/
 }
 
 #expertise {
@@ -725,5 +743,66 @@
   width: 230px;
   background-color: #425cbb;
   border-color: #425cbb;
+}
+
+#make {
+  padding: 100px 0;
+  background-image: url("../image/hero16.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+}
+
+#make::before {
+  content: "";
+  position: absolute;
+  background: #232323;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+#make .corona-327 {
+  position: absolute;
+  z-index: 2;
+  margin-top: 70px;
+  margin-left: 60px;
+}
+
+#make .corona-327 h3 {
+  font-weight: 600;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 2em;
+  line-height: 1.7em;
+  color: #fff;
+}
+
+#make .corona-327 p {
+  color: #fff;
+  font-family: "Lora", "Helvetica", "Arial", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+
+#owl-corusel {
+  height: 210px;
+  background: #f4f4f4;
+}
+
+#owl-corusel .item {
+  margin-top: 70px;
+  padding: 30px;
+}
+
+#owl-corusel .item img {
+  max-height: 1.625em;
+  opacity: .3;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
