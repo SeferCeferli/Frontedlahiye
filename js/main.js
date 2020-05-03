@@ -77,6 +77,10 @@ $(document).ready(function () {
     $(".close-icon").click(function(){
         $(".modal-container").css("display","none")
     })
+    $(".angle").click(function(e){
+        e.preventDefault()
+        $("html").animate({scrollTop: 0}, 2000);
+    })
 
     
 });
