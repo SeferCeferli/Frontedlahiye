@@ -15,7 +15,7 @@ $(document).ready(function () {
             $("#navgation .navbar.navbar-login").css("top", "45px");
             $("#navgation .navbar.navbar-login .nav-item .nav-link").css("color", "black");
             $("#navgation .navbar .nav-moon a.nav-function i.logini").css("color", "black");
-            // $("#navgation .navbar-brand  img").attr("src", "image/logo-dark.png");
+            $("#navgation .navbar-brand  img").attr("src", "image/logo-dark.png");
         }
        
     });  
