@@ -14,13 +14,16 @@
                     content: "";
                     color: $text-color;
                 }
+                a{
+                    color: black;
+                }
             }
     }
     .category-item {
+            width: 33.33%;
             position: relative;
             transition: all 0.6s;
-        img{ 
-        }
+        
         .overley{
             position: absolute;
             width: 100%;

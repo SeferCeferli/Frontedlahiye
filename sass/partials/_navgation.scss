@@ -1,16 +1,10 @@
 
 #navgation{
-   
-
-background-color: transparent;
-
-
-
+  background-color: transparent;
     .navbar{
         padding: 16px;
-
-
         .nav-module{
+            margin-left: 13px;
             img{
                 height: 33px;
             }
@@ -19,6 +13,10 @@ background-color: transparent;
         .nav-moon{
             text-align: right;
             margin-left: 1000px;
+            a{
+                text-decoration: none;
+                padding: 10px;
+            }
 
             
            
@@ -35,6 +33,7 @@ background-color: transparent;
         }
 
         .navbar-nav{
+            margin-left: 44px;
            .nav-link{
                color: $primary-color;
            }
@@ -50,10 +49,18 @@ background-color: transparent;
             }
         }
 
-        
+    
 
     }
     
 }
+.scrolled{
+    top: 0;
+    transition: all 0.5s;
+    background-color:white;
+    color:black;
+}
+
+
 
 

@@ -1,0 +1,40 @@
+#start{
+    position: relative;
+    padding: 12px 0;
+    background-color: #F4F4F4;
+    .nav-list{
+        list-style-type: none;
+        font-size: 13px;
+        .nav-list-item{
+            margin-left: 10px;
+            span{
+                font-family: $text-font-family;
+            }
+        }
+    }
+    .list-items{
+        position: absolute;
+        left: 400px;
+        z-index: 6;
+        li{
+            display: inline;
+           z-index: 7;
+            margin-right: 45px;
+            color: #6C757D;
+            &:hover{
+                color: black;
+            }
+            a{
+                color: rgb(177, 173, 173);
+                i{
+                    font-size: 15px;
+                
+                   
+                    &:hover{
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
