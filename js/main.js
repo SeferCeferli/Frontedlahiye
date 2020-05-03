@@ -5,17 +5,17 @@ $(document).ready(function () {
             $("#navgation .navbar").addClass("scrolled");
             $("#navgation .navbar.navbar-login").css("top", "0px");
             $("#navgation .navbar .nav-item .nav-link").css("color", "black");
-            $("#navgation .navbar-brand  img").attr("src", "./image/logo-dark.png");
+            $("#navgation  .navbar-function  img").attr("src", "image/logo-dark.png");
             $("#navgation .navbar .nav-moon a.nav-function i").css("color", "black");
         }else{
             $("#navgation .navbar").removeClass("scrolled");
             $("#navgation .navbar .nav-item .nav-link").css("color", "white");
-            $("#navgation .navbar-brand  img").attr("src", "./image/logo-light.png");
+            $("#navgation .navbar-function  img").attr("src", "image/logo-light.png");
             $("#navgation .navbar .nav-moon a.nav-function i").css("color", "white");
             $("#navgation .navbar.navbar-login").css("top", "45px");
             $("#navgation .navbar.navbar-login .nav-item .nav-link").css("color", "black");
             $("#navgation .navbar .nav-moon a.nav-function i.logini").css("color", "black");
-            $("#navgation .navbar-brand  img").attr("src", "./image/logo-dark.png");
+            // $("#navgation .navbar-brand  img").attr("src", "image/logo-dark.png");
         }
        
     });  

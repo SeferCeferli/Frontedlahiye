@@ -3,6 +3,7 @@
 }
 
 #navgation .navbar {
+  border-bottom: 1px solid gray;
   padding: 16px;
 }
 
@@ -15,8 +16,19 @@
 }
 
 #navgation .navbar .nav-moon {
+  position: relative;
   text-align: right;
   margin-left: 1000px;
+}
+
+#navgation .navbar .nav-moon::after {
+  content: "";
+  width: 1px;
+  height: 70px;
+  position: absolute;
+  background-color: gray;
+  top: -23px;
+  left: 0;
 }
 
 #navgation .navbar .nav-moon a {
