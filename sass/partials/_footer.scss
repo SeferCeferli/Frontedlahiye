@@ -83,10 +83,15 @@
             z-index: 4;
             bottom: 25px;
             padding-top: 12px;
+            &:hover{
+                bottom: 32px;
+                transition: all .3s;
+            }
             i{
                 color: white;
                 font-size: 27px;
             }
+        
         }
     }
 

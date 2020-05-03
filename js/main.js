@@ -20,14 +20,9 @@ $(document).ready(function () {
        
     });  
 
-    
 
-
- 
-
-
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
+   
+    $('.owl-carousel').owlCarousel({
         items:6,
         loop:true,
         margin:10,
@@ -35,18 +30,20 @@ $(document).ready(function () {
         autoplayTimeout:1000,
         autoplayHoverPause:true
     });
+
     $('.play').on('click',function(){
         owl.trigger('play.owl.autoplay',[1000])
-    })
+    });
+
     $('.stop').on('click',function(){
         owl.trigger('stop.owl.autoplay')
     })
-
 
     $(".grid").isotope({
         itemSelector: ".category-item",
         layotMode : "fitRows",
     });
+
     $(".menu ul li").click(function(){
         $(".menu ul li").removeClass("active");
         $(this).addClass("active");
@@ -57,25 +54,23 @@ $(document).ready(function () {
         return false
     });
 
-   $(".container.portfolio-item").isotope({
-       itemSelector: '.card',
-       layoutMode:'fitRows'
-   });
 
-   $(".container.portfolio-menu ul li").click(function(){
-    $(".menu ul li").removeClass("active");
-    $(this).addClass("active");
-    var select = $(this).attr("data-filter");
-    $(".grid").isotope({
-        filter : select
+    
+    $(".shop-grid").isotope({
+        itemSelector: ".shop-item",
+        layotMode : "fitRows",
     });
-    
-   })
-   return false
- 
 
+    $(".menu .list-item li").click(function(){
+        $(".menu ul li").removeClass("active");
+        $(this).addClass("active");
+        var select = $(this).attr("data-filter");
+        $(".shop-grid").isotope({
+            filter : select
+        });
+        return false
+    });
 
-    
     
 });
    

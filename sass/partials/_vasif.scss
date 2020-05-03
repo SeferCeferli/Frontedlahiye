@@ -6,8 +6,19 @@ body{
 
 #vasif{
     
-    .list-items li{
-        display: inline-block;
+    .list-item li{
+        
+        margin-right: 60px;
+        cursor: pointer;
+        text-transform: capitalize;
+        font-style: italic;
+        font-family: $text-font-family;
+        color: rgb(207, 207, 207);
+        font-weight: $helper-font-weight;
+        &:hover{
+            content: "";
+            color: $text-color;
+        }
     }
    
 
@@ -73,6 +84,16 @@ body{
         }
        }
    }
+
+   .shop-grid{
+       display: flex;
+       flex-wrap: wrap;
+   }
+
+   .shop-item{
+    width: 33.3%;
+    padding: 10px;
+}
    
 }
 
