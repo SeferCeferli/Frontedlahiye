@@ -46,6 +46,40 @@
   display: none;
 }
 
+#navgation .modal-container {
+  position: relative;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  z-index: 2000;
+}
+
+#navgation .modal-container .search-modal {
+  margin-top: 45%;
+}
+
+#navgation .modal-container .search-modal input {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#navgation .modal-container .search-modal span {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+#navgation .modal-container .close-icon {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: white;
+  opacity: .5;
+}
+
 .scrolled {
   top: 0;
   -webkit-transition: all 0.5s;
